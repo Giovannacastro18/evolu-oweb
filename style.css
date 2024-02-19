@@ -1,0 +1,118 @@
+@charset "uft-8";
+
+@font-face {
+   font-family:nexa;
+   src: url(nexa/Nexa-ExtraLight.ttf);
+}
+
+@font-face {
+   font-family:roboto;
+   src: url(roboto/Roboto-Black.ttf);
+}
+
+
+header {
+   color: rgb(255, 255, 255);
+   font-size: 150%;
+   text-align: center;
+   font-family:komika_axis;
+
+}
+
+body {
+   background-image: url(https://i.pinimg.com/564x/d3/5e/f0/d35ef0d5b942b3f5d6e73fe768dee047.jpg);
+}
+
+img {
+   height: 250px;
+   width: 400px;
+  margin-left: 450px;
+   margin-top: -50px;
+  
+   
+}
+ h1{
+   font-family:roboto;
+   font-size: 50px;
+ }
+
+
+
+.texto p {
+   /* text-align: center; */
+   font-size: 30px;
+   text-align: justify;
+   color: rgb(243, 240, 240);
+   margin-left: 60px;
+   margin-right: 60px;
+   font-family: nexa;
+   margin-top: 20%;
+   
+}
+
+iframe {
+   left:450px;
+   position: absolute;
+   height: 250px;
+   width: 400px;
+   border-radius: 8px;
+   margin-top:-300px;
+}
+
+.a1{
+   animation: gigi infinite 10s ;
+   max-height:auto ;
+   max-width: 500px;
+   margin-left: 200px;
+   height: 200px;
+   width: 250px;
+  bottom: 40px;
+
+ 
+}
+
+@keyframes gigi {
+   from{
+      transform: rotateY(0deg);
+
+   }
+
+   to{
+      transform: rotateY(360deg);
+   }
+   
+}
+input{
+  margin-left: 600px;
+  position: absolute;
+  bottom:-500px;
+  background-color: rgb(247, 247, 247);
+  border-radius: 5px;
+  height: 40px;
+  width: 90px;
+  color: rgb(174, 99, 245);
+  background-color: rgb(60, 21, 97);
+}
+
+footer{
+   background-color: rgb(35, 8, 71);
+   display: flex;
+   
+   
+  
+   
+ 
+}
+
+footer p{
+   margin-left:550px;
+   font-size: 20px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: aliceblue;
+}
+
+
+
+
+
+
